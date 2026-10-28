@@ -1,0 +1,31 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.kdbx
+*credentials*
+*secret*
+*token*
+
+# VPN and host configuration
+*.conf
+*.nmconnection
+wg0.conf
+proton-killswitch.nft
+proton-killswitch-load.nft
+proton-killswitch-update.nft
+proton-killswitch-recovery.sh
+
+# Logs, backups, and temporary files
+*.log
+*.bak
+*.backup
+*.old
+*.tmp
+*~
+.DS_Store
